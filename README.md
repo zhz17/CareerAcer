@@ -38,10 +38,10 @@ print(result.potential_questions)
 
 ## 📈 Roadmap
 
-- <input disabled="" type="checkbox"> Web UI for easy input and results display
-- <input disabled="" type="checkbox"> Support for uploading PDF job descriptions
-- <input disabled="" type="checkbox"> Integration with LinkedIn job postings
-- <input disabled="" type="checkbox"> Multi-language support
+- [ ] Web UI for easy input and results display
+- [ ] Support for uploading PDF job descriptions
+- [ ] Integration with LinkedIn job postings
+- [ ] Multi-language support
 
 ## 🤝 Contributing
 
