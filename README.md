@@ -1,10 +1,10 @@
-# AI Interview Analyzer
+# Career Acer
 
 ![Anthropic](https://techcrunch.com/wp-content/uploads/2023/05/anthropic-header.jpg)
 
 ## 🚀 Project Overview
 
-**AI Interview Analyzer** is an intelligent agent designed to analyze career pages and job postings from any company website. By processing job titles and descriptions, the agent predicts the typical interview process and generates a list of potential interview questions you might encounter for that role.
+**Career Acer** is an intelligent Agent build with Model Context Protocal (MCP) which designed to analyze career pages and job postings from any company website. By processing job titles and descriptions, the agent predicts the typical interview process and generates a list of potential interview questions you might encounter for that role.
 
 ## ✨ Features
 
