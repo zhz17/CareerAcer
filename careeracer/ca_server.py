@@ -21,9 +21,8 @@ def result_storage(result: str) -> str:
     Tool to store results in a file.
     """
     # Define the path to the results file
-timestamp = time.strftime("%Y%m%d_%H%M%S")
-results_file = f"results_{timestamp}.txt"
- ...
+    timestamp = time.strftime("%Y%m%d_%H%M%S")
+    results_file = f"results_{timestamp}.txt"
     # Open the file in append mode and write a sample result
     with open(results_file, "a") as file:
         file.write(f"{result}\n")
@@ -31,7 +30,5 @@ results_file = f"results_{timestamp}.txt"
     return f"Results stored in {results_file}"
 
 if __name__ == "__main__":
-    # Initialize and run the server
-    server.run(transport='stdio')if __name__ == "__main__":
     # Initialize and run the server
     server.run(transport='stdio')
