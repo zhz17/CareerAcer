@@ -4,7 +4,7 @@ import asyncio
 # Create server parameters for stdio connection
 server_params = StdioServerParameters(
     command="uv",  # Executable
-    args=["run ca_server.py"],  # Command line arguments
+    args=["run", "ca_server.py"],
     env=None,  # Optional environment variables
 )
 

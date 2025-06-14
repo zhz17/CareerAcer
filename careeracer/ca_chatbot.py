@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 from mcp import ClientSession, StdioServerParameters, types
 from mcp.client.stdio import stdio_client
 from typing import List, Dict, TypedDict
+import os
 from contextlib import AsyncExitStack
 import json
 import asyncio
@@ -93,7 +94,7 @@ class CA_ChatBot:
                     
                     # Call a tool
                     session = self.tool_to_session[tool_name] # new
-                    result = await self.session.call_tool(tool_name, arguments=tool_args)
+                    result = await session.call_tool(tool_name, arguments=tool_args)
                     messages.append({"role": "user", 
                                       "content": [
                                           {
