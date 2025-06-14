@@ -6,7 +6,8 @@
               "args": [
                   "-y",
                   "@modelcontextprotocol/server-filesystem",
-                  "."
+                  ".",
+                  "../resource"
               ]
           },
 
