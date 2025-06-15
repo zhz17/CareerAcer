@@ -50,7 +50,6 @@ class CA_ChatBot:
                 print(f"\nConnected to {server_name} with tools:", [t.name for t in tools])         
                 
                 for tool in response.tools:
-                    self.tool_to_session[tool.name] = session
                     self.sessions[tool.name] = session
                     self.available_tools.append({
                         "name": tool.name,
