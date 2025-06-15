@@ -27,9 +27,9 @@
 ## 📦 Example Usage
 
 ```python
-# Example (pseudo-code)
+# replace 'your_anthropic_api_key' with your actual API key
 
-pass
+python ./carerracer/ca_chatbot.py
 ```
 
 ## 💡 Use Cases
@@ -40,10 +40,10 @@ pass
 
 ## 📈 Roadmap
 
-- [ ] Job Advertisement Analysis functinoality
-- [ ] Interview Process Prediction functionality
-- [ ] Potential Questions Generation functionality
-- [ ] Matching Analysis functionality
+- [x] Job Advertisement Analysis functinoality
+- [x] Potential Questions Generation functionality
+- [x] Matching Analysis functionality
+- [ ] Intergration with free lmm api providers (e.g., Cerebras)
 - [ ] User Interface for input and output
 - [ ] (Maybe) Integration with popular job boards (e.g., Indeed, Glassdoor)
 

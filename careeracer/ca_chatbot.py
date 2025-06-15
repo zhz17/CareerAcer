@@ -13,14 +13,14 @@ from cerebras.cloud.sdk import Cerebras
 nest_asyncio.apply()
 load_dotenv()
 
-    
+your_anthropic_api_key = ''
 
 class CA_ChatBot:
 
     def __init__(self):
         # Initialize session and client objects
         self.exit_stack = AsyncExitStack()
-        self.anthropic = Anthropic(api_key="")  # replace with your actual API key
+        self.anthropic = Anthropic(api_key=your_anthropic_api_key)  # replace with your actual API key
         # Tools list required for Anthropic API
         self.available_tools = []
         # Prompts list for quick display 
