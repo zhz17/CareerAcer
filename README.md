@@ -6,13 +6,13 @@
 
 ## 🚀 Project Overview
 
-**Career Acer** is an intelligent Agent build with Model Context Protocal (MCP) which designed to analyze career pages and job postings from any company website. By processing job titles and descriptions, the agent predicts the typical interview process and generates a list of potential interview questions you might encounter for that role.
+**Career Acer** is an intelligent Agent build with Model Context Protocol (MCP) which designed to analyze career pages and job postings from any company website. By processing job titles and descriptions, the agent predicts the typical interview process and generates a list of potential interview questions you might encounter for that role.
 
 ## ✨ Features
 
 - **Job Advertisement Analysis:** Input a URL to a career or job posting page; the agent extracts and understands the job title and description.
-- **Interview Process Prediction:** Based on the company and role, the agent predicts the likely interview stages (e.g., phone screen, technical, behavioral).
-- **Potential Questions Generation:** Produces a list of tailored interview questions you may be asked, including technical, behavioral, and company-specific topics.
+- **Interview Process Prediction:** Based on the company and role, the agent predicts the likely interview stages (e.g., phone screen, technical, behavioural).
+- **Potential Questions Generation:** Produces a list of tailored interview questions you may be asked, including technical, behavioural, and company-specific topics.
 - **Matching Analysis:** Based on the job information and cv, analysis of the match between the job requirements and the candidate's qualifications.
 - **User-Friendly:** Simple interface for inputting job URLs and receiving structured output.
 - **Customizable:** Works for a wide range of companies and job types.
