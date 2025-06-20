@@ -58,6 +58,64 @@ def generate_cletter_prompt(cv: str, url=job) -> str:
     """Generate a prompt for LLM to list all files in cv folder."""
     return f"""Read the cv file using read_file(path="../resource/{cv}"). With the information in the CV and job advertisement {url}, generate a cover letter for the job. The cover letter should be concise, professional, and tailored to the job description. It should highlight the candidate's skills and qualifications that match the job requirements. The cover letter should be in a format suitable for submission with the CV."""
 
+'''
+To Be Added Later (List of prompts for various career-related tasks):
+
+1) Company research
+
+Prompt:
+"I have an interview with __________ (company) for the position of __________ (job). Please summarize the company's mission, its main products or services and its recent news or achievements by analyzing its website __________ (website link) and any recent press release"
+
+
+2) Resume optimization
+
+Prompt:
+"Review my current attached resume and suggest improvements tailored to applying for a __________ (job) at __________ (company). Highlight gaps in my experience and recommend ways to fill them through online courses or projects"
+
+
+3) Writing the cover letter
+
+Prompt:
+"Based on the job description for __________ (job title) at __________ (company), generate a cover letter that highlights my relevant experience, skills and why I am passionate about working for __________ (company)"
+
+
+4) Interview preparation
+
+Prompt:
+"For __________ (job title) at __________ (company), what are some industry-specific challenges or trends I should be aware of? How can I demonstrate my understanding or propose possible solutions during the interview?"
+
+
+5) Behavioral interview questions
+
+Prompt:
+"Create a set of behavioral interview questions relevant to the __________ (job) role at __________ (company). Include a brief guide on how to structure answers using the STAR (Situation, Task, Action, Result) method, tailored to my needs"
+
+
+6) Craft your resume perfectly
+
+Prompt:
+"I want to tailor my resume to specific job descriptions so I get shortlisted more often. Analyze this job posting for __________ (job title), extract the most important keywords and skills and help me rewrite my resume to match it perfectly while maintaining authenticity"
+
+
+7) Data-driven job search
+
+Prompt:
+"I want to use data and hiring trends to increase my chances of landing a high-paying job in __________ (industry). Provide me with data-backed job searches strategies, salary benchmarks and negotiation tips based on market trends"
+
+
+8) Network like a pro
+
+Prompt:
+"I want to build relationships with influential professionals in __________ (industry) to increase my chances of getting a job. Give me a step-by-step networking strategy, including outreach messages, follow-ups and ways to provide value to them"
+
+
+9) Craft the perfect elevator pitch
+
+Prompt:
+"I need a powerful 30-second elevator pitch that instantly impresses interviewers for __________ (job title). Craft a clear, concise and compelling pitch that highlight my skills, experience and what makes me unique"
+'''
+
+
 if __name__ == "__main__":
     # Initialize and run the server
     server.run(transport='stdio')
